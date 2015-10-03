@@ -37,6 +37,8 @@ git log --oneline
 git diff
   Shows us what has changed between the staging area and working directory
 
+Branches:- parallel universe where we can work on different things in isolation
+
 git branch
   lists all the created branches in the git repository
 
