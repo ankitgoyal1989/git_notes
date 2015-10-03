@@ -52,3 +52,6 @@ git checkout <branch-name>
 git merge <branch-name> 
   Merges the master branch with the <branch-name>
 NOTE: make the checkout branch to MASTER to merge the changes 
+
+git checkout <commit-hash/unique-commit-id>
+  switches to the <commit-id>
