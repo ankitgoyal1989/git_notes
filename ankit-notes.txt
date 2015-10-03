@@ -29,4 +29,11 @@ git commit -m 'descriptive-message'
   save the files/changes to the git repository with the timestamp and the user define message
 
 git log
-  prints the commit we made to the repository
+  prints all the commits we made to the repository
+
+git log --oneline
+  print commit hash (unique commit id) and the messages used to save the changes
+
+
+
+General notes: We have to add the file everytime we want to commit the changes to the repository
