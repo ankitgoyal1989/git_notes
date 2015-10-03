@@ -34,6 +34,8 @@ git log
 git log --oneline
   print commit hash (unique commit id) and the messages used to save the changes
 
+git diff
+  Shows us what has changed between the staging area and working directory
 
+General notes: We have to add the file everytime we want to commit the changes to the repository.##### git add <file-name> and then git commit -m <MESSAGE>#####
 
-General notes: We have to add the file everytime we want to commit the changes to the repository
