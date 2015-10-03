@@ -27,6 +27,7 @@ git add
 
 git commit -m 'descriptive-message'
   save the files/changes to the git repository with the timestamp and the user define message
+Note: We have to add the file everytime we want to commit the changes to the repository.##### git add <file-name> and then git commit -m <MESSAGE>#####
 
 git log
   prints all the commits we made to the repository
@@ -48,5 +49,6 @@ git branch <new-branch>
 git checkout <branch-name>
   change the branch to <branch-name>
 
-General notes: We have to add the file everytime we want to commit the changes to the repository.##### git add <file-name> and then git commit -m <MESSAGE>#####
-
+git merge <branch-name> 
+  Merges the master branch with the <branch-name>
+NOTE: make the checkout branch to MASTER to merge the changes 
