@@ -1,5 +1,6 @@
 git config --global user.name "user-name"
 git config --global user.email "user-email"
+got config --global --add color.ui true
 
 Command line commands:
 pwd
@@ -19,9 +20,13 @@ touch [file-name.extension]
 
 GIT commands:
 git init
-  initializes a directory
+  initializes a git repository
 
 git add
+  add new files to be added to the git repository
 
+git commit -m 'descriptive-message'
+  save the files/changes to the git repository with the timestamp and the user define message
 
-git commit
+git log
+  prints the commit we made to the repository
