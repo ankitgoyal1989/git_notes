@@ -55,3 +55,9 @@ NOTE: make the checkout branch to MASTER to merge the changes
 
 git checkout <commit-hash/unique-commit-id>
   switches to the <commit-id>
+
+git revert --no-edit <comit-id>
+  Reverses <commit-id> commit by making another commit
+
+git reset --hard
+  Resets the working directory  
