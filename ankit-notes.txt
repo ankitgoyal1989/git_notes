@@ -61,3 +61,9 @@ git revert --no-edit <comit-id>
 
 git reset --hard
   Resets the working directory  
+
+git remote add origin <https://github.com/ankitgoyal1989/git_notes.git>
+  add the remote repository to the central server
+
+git push -u origin master
+  push the local repository changes to the central server  
