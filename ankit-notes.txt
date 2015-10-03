@@ -1,6 +1,6 @@
 git config --global user.name "user-name"
 git config --global user.email "user-email"
-got config --global --add color.ui true
+git config --global --add color.ui true
 
 Command line commands:
 pwd
@@ -36,6 +36,15 @@ git log --oneline
 
 git diff
   Shows us what has changed between the staging area and working directory
+
+git branch
+  lists all the created branches in the git repository
+
+git branch <new-branch>
+	creates a new branch inside the git repository
+  
+git checkout <branch-name>
+  change the branch to <branch-name>
 
 General notes: We have to add the file everytime we want to commit the changes to the repository.##### git add <file-name> and then git commit -m <MESSAGE>#####
 
