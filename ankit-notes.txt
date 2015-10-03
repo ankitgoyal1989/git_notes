@@ -1,0 +1,27 @@
+git config --global user.name "user-name"
+git config --global user.email "user-email"
+
+Command line commands:
+pwd
+  lists present working directory
+
+ls
+  directory listing
+
+cd [directory-name]
+  change directory
+
+mkdir [directory-name]
+  make a new directory
+
+touch [file-name.extension]
+  creates an empty file name with given extension
+
+GIT commands:
+git init
+  initializes a directory
+
+git add
+
+
+git commit
